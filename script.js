@@ -72,6 +72,16 @@
     "step4.title": "Follow-up & decision",
     "step4.text": "We keep you updated at every stage and, if there is a refusal, assess the best appeal.",
 
+    "gallery.eyebrow": "The neighbourhood",
+    "gallery.title": "Sant Andreu, our corner of Barcelona.",
+    "gallery.lede": "The office is at Carrer de Múrcia, 40, a few minutes from Sant Andreu metro. These are the streets where we live and work.",
+    "gallery.cap1": "Sant Andreu · Barcelona",
+    "gallery.cap2": "District streets",
+    "gallery.cap3": "A few steps from the office",
+    "gallery.alt1": "Street in the Sant Andreu district, Barcelona",
+    "gallery.alt2": "Building facades in Sant Andreu, Barcelona",
+    "gallery.alt3": "A corner of the Sant Andreu neighbourhood, Barcelona",
+
     "about.eyebrow": "The firm",
     "about.title": "Umer, your immigration lawyer in Barcelona.",
     "about.p1": "Ramala Asesores was founded in Sant Andreu with a simple idea: nobody should have to face the authorities alone. Umer leads the firm and personally handles every file, from the first consultation to the final decision.",
@@ -231,6 +241,9 @@
     });
     document.querySelectorAll("[data-i18n-aria]").forEach(function (el) {
       originalAttrs.push({ el: el, attr: "aria-label", value: el.getAttribute("aria-label"), key: el.dataset.i18nAria });
+    });
+    document.querySelectorAll("[data-i18n-alt]").forEach(function (el) {
+      originalAttrs.push({ el: el, attr: "alt", value: el.getAttribute("alt"), key: el.dataset.i18nAlt });
     });
   }
 

@@ -73,6 +73,10 @@
         <svg class="ic" aria-hidden="true"><use href="#i-phone"></use></svg>
         <span>935 308 763</span>
       </a>
+      <div class="lang-switch lang-switch-top" role="group" aria-label="Idioma / Language">
+        <button type="button" data-lang="es" class="is-active" aria-pressed="true">ES</button>
+        <button type="button" data-lang="en" aria-pressed="false">EN</button>
+      </div>
     </div>
   </div>
 </div>
@@ -104,9 +108,8 @@
     </nav>
 
     <div class="header-actions">
-      <div class="lang-switch" role="group" aria-label="Idioma / Language">
+      <div class="lang-switch lang-switch-header" role="group" aria-label="Idioma / Language">
         <button type="button" data-lang="es" class="is-active" aria-pressed="true">ES</button>
-        <span aria-hidden="true">/</span>
         <button type="button" data-lang="en" aria-pressed="false">EN</button>
       </div>
       <a class="btn btn-primary btn-sm header-cta" href="#contacto" data-i18n="cta.book">Pedir cita</a>
@@ -378,6 +381,39 @@
           <h3 data-i18n="value4.title">Acompañamiento real</h3>
           <p data-i18n="value4.text">Citas, presentación, seguimiento y recursos. De principio a fin.</p>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= GALLERY ================= -->
+  <section class="section section-sand gallery-section" aria-labelledby="gallery-title">
+    <div class="container">
+      <div class="gallery-head">
+        <div>
+          <p class="eyebrow reveal"><span class="dot"></span><span data-i18n="gallery.eyebrow">El barrio</span></p>
+          <h2 id="gallery-title" class="reveal" data-i18n="gallery.title">Sant Andreu, nuestro rincón de Barcelona.</h2>
+        </div>
+        <p class="section-lede reveal" data-i18n="gallery.lede">El despacho está en Carrer de Múrcia, 40, a pocos minutos del metro de Sant Andreu. Estas son las calles donde vivimos y trabajamos.</p>
+      </div>
+      <div class="gallery-grid">
+        <figure class="gallery-item reveal">
+          <div class="gallery-frame">
+            <img src="assets/photos/sant-andreu-02.jpg" alt="Calle del barrio de Sant Andreu, Barcelona" data-i18n-alt="gallery.alt1" width="1100" height="825" loading="lazy" decoding="async">
+          </div>
+          <figcaption data-i18n="gallery.cap1">Sant Andreu · Barcelona</figcaption>
+        </figure>
+        <figure class="gallery-item reveal">
+          <div class="gallery-frame">
+            <img src="assets/photos/sant-andreu-04.jpg" alt="Fachadas de edificios en Sant Andreu, Barcelona" data-i18n-alt="gallery.alt2" width="1100" height="825" loading="lazy" decoding="async">
+          </div>
+          <figcaption data-i18n="gallery.cap2">Calles del distrito</figcaption>
+        </figure>
+        <figure class="gallery-item reveal">
+          <div class="gallery-frame">
+            <img src="assets/photos/sant-andreu-06.jpg" alt="Rincón del barrio de Sant Andreu, Barcelona" data-i18n-alt="gallery.alt3" width="1100" height="825" loading="lazy" decoding="async">
+          </div>
+          <figcaption data-i18n="gallery.cap3">A pocos pasos del despacho</figcaption>
+        </figure>
       </div>
     </div>
   </section>
